@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-user-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }} | Kentucky Bike Lawyer</title>
+	<meta name="description" content="{{ description }}">
+	<link rel="stylesheet" href="/assets/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="canonical" href="{{ page.url | absoluteUrl(metadata.url) }}">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FWJJBJPSG5"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FWJJBJPSG5');
+	</script>
+</head>
+<body>
+	{% include 'header.njk' %}
+	{% include 'navigation.njk' %}
+	
+	<main>
+		{{ content | safe }}
+	</main>
+
+	{% include 'footer.njk' %}
+</body>
+</html>

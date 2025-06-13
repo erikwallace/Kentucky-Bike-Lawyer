@@ -1,0 +1,19 @@
+<nav class="main-nav">
+	<ul class="wrapper nav">
+    {% for item in navigation %}
+      <li>
+        <a
+          href="{{ item.url | url }}"
+          {% if item.url === page.url %}
+            aria-current="page"
+            class="nav-link"
+          {% else %}
+            class="nav-link"
+          {% endif %}
+        >
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

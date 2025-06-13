@@ -1,0 +1,42 @@
+---
+layout: 'base.njk'
+---
+{% set posts = collections.blog %}
+{% set currentIndex = posts | getIndex(page.url) %}
+{% set prevPost = posts[currentIndex - 1] if currentIndex > 0 %}
+{% set nextPost = posts[currentIndex + 1] if currentIndex < posts.length - 1 %}
+
+<article class="blog-article wysiwyg">
+    <div class="wrapper single-column flow">
+        <p><a href="/blog/" class="breadcrumb">&larr; Back to the Blog</a></p>
+
+        <h1 class="article-title">
+            {{ title }}
+        </h1>
+
+		{{ content | safe }}
+
+        <nav class="post-navigation">
+            <div class="nav-links">
+            {% if prevPost %}
+                <div class="flow nav-link--prev">
+                    <p>&larr; <strong>Previous</strong></p>
+                    <a href="{{ prevPost.url }}" class="nav-link">{{ prevPost.data.title }}</a>
+                </div>
+            {% else %}
+                
+            {% endif %}
+
+            {% if nextPost %}
+                <div class="flow nav-link--next">
+                    <p><strong>Next</strong> &rarr;</p>
+                    <a href="{{ nextPost.url }}" class="nav-link ">{{ nextPost.data.title }}</a>
+                </div>
+            {% else %}
+                
+            {% endif %}
+            </div>
+        </nav>
+		
+    </div>
+</article>
