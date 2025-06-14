@@ -4,6 +4,7 @@ author: Chris Carville
 date: 2025-03-17
 tags: featured
 description: Last week was a BIG WEEK here in Carville Legal Land. Last week was the culmination of five years of life as a solo practitioner. Many of you, in fact all of you, could be forgiven if you wanted to forget Friday, March 13, 2020. That Friday was a simultaneously ominous and auspicious day for me.
+changeFreq: monthly
 ---
 
 <p>Last week was a BIG WEEK here in Carville Legal Land. Last week was the culmination of five years of life as a solo practitioner. Many of you, in fact all of you, could be forgiven if you wanted to forget Friday, March 13, 2020 (I will return to that date in a moment, bear with me). That Friday was a simultaneously ominous and auspicious day for me.</p>

@@ -4,6 +4,7 @@ author: Chris Carville
 date: 2022-07-26
 tags: featured
 description: The Garrett County Double Diablo Grand Fondo on June 18, 2022 was not my idea. My training partner, Nate, suggested it on a Sunday Ride. He really dared me to say No. He tends to bite off Big Projects like TNGA, Michigan's Coast to Coast Gravel Grinder (which he has also talked me into), Mohican 100 Mountain Bike Race, several Nue Series Mountain Bike Races, and the list goes on. So, I approached his dare with a bit of trepidation considering these past events.
+changeFreq: monthly
 ---
 
 <p>The <a href="https://web.archive.org/web/20240416125946/https://garrettcountygranfondo.org/">Garrett County Double Diablo Grand Fondo</a> on June 18, 2022 was not my idea.</p>
