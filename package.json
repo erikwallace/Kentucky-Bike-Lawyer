@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-powell/JAMStack-blog-starter.git"
+    "url": "git+https://github.com/erikwallace/Kentucky-Bike-Lawyer.git"
   },
   "keywords": [],
   "author": "Erik Wallace",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevin-powell/JAMStack-blog-starter/issues"
+    "url": "https://github.com/erikwallace/Kentucky-Bike-Lawyer/issues"
   },
-  "homepage": "https://github.com/kevin-powell/JAMStack-blog-starter#readme",
+  "homepage": "https://github.com/erikwallace/Kentucky-Bike-Lawyer#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
