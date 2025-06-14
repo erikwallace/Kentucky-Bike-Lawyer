@@ -4,6 +4,7 @@ author: Chris Carville
 date: 2022-10-12
 tags: ["post", "featured"]
 description: Discussion with Will Leet about Licking Valley velo.
+changeFreq: monthly
 ---
 
 <p>So, if I was a better scheduler, I would have had Will Leet of Licking Valley Velo on sooner!  Evening group rides are winding down as we lose daylight. Licking Valley Velo’s now famous Tuesday Night Worlds is winding down too. However, you can still join the folks at Licking Valley Velo for Saturday morning rides.</p>
