@@ -4,6 +4,7 @@ author: Chris Carville
 date: 2022-08-22
 tags: ["post", "featured"]
 description: June 22, 2022 could have been a very fateful date for me and my family. I came very close to having that date on the righthand side of my tombstone. My August Podcast is dedicated to my crash. Visual aids help tremendously when explaining anything moving and on two wheels so I would encourage you to follow the YouTube link for the specifics of the crash.
+changeFreq: monthly
 ---
 
 <p>June 22, 2022, could have been a very fateful date for me and my family. I came very close to having that date on the righthand side of my tombstone. My August Podcast is dedicated to my June 22, 2022 crash. Visual aids help tremendously when explaining anything moving and on two wheels so I would encourage you to follow the YouTube Link below for the specifics of the crash:</p>
