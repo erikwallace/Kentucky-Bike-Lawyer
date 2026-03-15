@@ -344,23 +344,43 @@ footer p {
 footer .wrapper {
 	background-color: var(--color-brand);
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	gap: var(--space-m);
 	padding-block: var(--space-s);
+	inline-size: 100%;
 }
 
-@media (min-width: 881px) {
+.split-left,
+.split-right,
+.split-right nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: var(--space-l);
+}
+
+.split-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--space-s);
+}
+
+@media (min-width: 500px) {
 	footer .wrapper {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		gap: var(--space-xl);
 		max-width: none;
 	}
-
-	footer address:first-child {
-		text-align: right;
+	.split-left,
+	.split-right,
+	.split-right nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: var(--space-l);
 	}
 }
 
